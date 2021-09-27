@@ -51,6 +51,8 @@ public class financiamento {
 
         } while(continua == 'V');
 
+        sc.close();
+
     }
 
 }
