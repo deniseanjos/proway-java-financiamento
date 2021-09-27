@@ -46,6 +46,7 @@ public class financiamento {
 
             while(continua != 'S' && continua != 'V') {
                 System.out.print("Opção inválida. Digite V para voltar ao menu principal ou S para sair: ");
+                continua = sc.next().toUpperCase().charAt(0);
             }
 
         } while(continua == 'V');
